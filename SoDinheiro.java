@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class SoDinheiro {
     public static void main(String[] args) {
     Scanner sc = new Scanner (System.in);
-    Banco banco = new Banco(5);
+    Banco banco = new Banco(20);
     int op, senha = 0;
 
     do {
